@@ -1,4 +1,12 @@
-# Puppet wkhtmltopdf for Boxen
+# wkhtmltopdf Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the following boxen modules:
 
+* `boxen`
+* `homebrew`
+
+## Usage
+
+```puppet
+include wkhtmltopdf
+```
