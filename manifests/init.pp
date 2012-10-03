@@ -1,5 +1,5 @@
 class wkhtmltopdf {
-  package { 'github/brews/wkhtmltopdf':
-    ensure => '0.9.9-github1'
+  package { 'boxen/brews/wkhtmltopdf':
+    ensure => '0.9.9-boxen1'
   }
 }
