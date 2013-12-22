@@ -6,7 +6,7 @@ class Wkhtmltopdf < Formula
   sha1 '41f598c0103326e7c13101391447b0284b4ba3cb'
   version '0.9.9-boxen1'
 
-  depends_on 'qt'
+  depends_on 'boxen/brews/qt'
 
   def install
     # fix that missing TEMP= include
