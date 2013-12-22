@@ -9,6 +9,11 @@ GITHUBTARBALL
     homebrew (0.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-qt
+  specs:
+    qt (1.2.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
@@ -16,5 +21,6 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 0.2.0)
   homebrew (= 0.2.0)
+  qt (= 1.2.1)
   stdlib (= 3.0.0)
 
