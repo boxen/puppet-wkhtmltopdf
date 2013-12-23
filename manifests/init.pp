@@ -5,6 +5,7 @@
 #   include wkhtmltopdf
 class wkhtmltopdf {
   include homebrew
+  include qt
 
   homebrew::formula { 'wkhtmltopdf':
     before => Package['boxen/brews/wkhtmltopdf'],
